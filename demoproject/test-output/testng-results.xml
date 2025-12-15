@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-15T14:31:34 IST" name="Suite" finished-at="2025-12-15T14:31:49 IST" duration-ms="14214">
+    <groups>
+    </groups>
+    <test started-at="2025-12-15T14:31:34 IST" name="Test" finished-at="2025-12-15T14:31:49 IST" duration-ms="14214">
+      <class name="Testscript.ManageNewsTest">
+        <test-method is-config="true" signature="browserInitialisation(java.lang.String)[pri:0, instance:Testscript.ManageNewsTest@4dc27487]" started-at="2025-12-15T14:31:34 IST" name="browserInitialisation" finished-at="2025-12-15T14:31:43 IST" duration-ms="8522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialisation -->
+        <test-method signature="verifyUserIsAbleToCreateNews()[pri:0, instance:Testscript.ManageNewsTest@4dc27487]" started-at="2025-12-15T14:31:43 IST" name="verifyUserIsAbleToCreateNews" finished-at="2025-12-15T14:31:48 IST" duration-ms="5373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleToCreateNews -->
+        <test-method is-config="true" signature="browserQuitAndClose(org.testng.ITestResult)[pri:0, instance:Testscript.ManageNewsTest@4dc27487]" started-at="2025-12-15T14:31:48 IST" name="browserQuitAndClose" finished-at="2025-12-15T14:31:49 IST" duration-ms="260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsAbleToCreateNews status=SUCCESS method=ManageNewsTest.verifyUserIsAbleToCreateNews()[pri:0, instance:Testscript.ManageNewsTest@4dc27487] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuitAndClose -->
+      </class> <!-- Testscript.ManageNewsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

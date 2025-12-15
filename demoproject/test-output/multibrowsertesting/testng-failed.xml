@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [multibrowsertesting]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="chrometest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Testscript.ManageNewsTest">
+        <methods>
+          <include name="browserQuitAndClose"/>
+          <include name="browserInitialisation"/>
+          <include name="verifyUserIsAbleToCreateNews"/>
+        </methods>
+      </class> <!-- Testscript.ManageNewsTest -->
+      <class name="Testscript.LoginTest">
+        <methods>
+          <include name="browserQuitAndClose"/>
+          <include name="browserInitialisation"/>
+          <include name="VerifyUserLoginUsingInvalidUsernameAndInvalidPassword"/>
+        </methods>
+      </class> <!-- Testscript.LoginTest -->
+    </classes>
+  </test> <!-- chrometest(failed) -->
+</suite> <!-- Failed suite [multibrowsertesting] -->
