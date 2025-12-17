@@ -1,4 +1,4 @@
-package Testscript;
+package testscript;
 
 import java.io.IOException;
 
